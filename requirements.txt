@@ -1,0 +1,15 @@
+# Part 1 (tested with these versions; torch is installed separately to match your CUDA)
+torch>=2.6
+sr-corrnet-ss @ git+https://github.com/dmlguq456/SR_CorrNet_SS@7340365b9cc9a021bf7d400f52fce4b88593b67a
+huggingface_hub>=0.20
+numpy>=1.24
+scipy>=1.10
+soundfile>=0.12
+librosa>=0.10
+pandas>=2.0
+matplotlib>=3.7
+pyyaml>=6.0
+tqdm>=4.60
+mir_eval>=0.7
+pystoi>=0.3
+pesq>=0.0.4
